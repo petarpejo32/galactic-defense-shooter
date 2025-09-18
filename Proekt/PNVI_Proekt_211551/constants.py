@@ -1,0 +1,25 @@
+import pygame
+
+pygame.init()
+pygame.mixer.init()
+
+SCREEN_WIDTH = 1200
+SCREEN_HEIGHT = 900
+GAME_AREA_WIDTH = 900
+INFO_PANEL_WIDTH = 300
+FPS = 60
+
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
+CYAN = (0, 255, 255)
+PURPLE = (255, 0, 255)
+ORANGE = (255, 165, 0)
+GRAY = (128, 128, 128)
+DARK_GRAY = (65, 65, 65)
+LIGHT_BLUE = (175, 215, 230)
+DARK_RED = (140, 0, 0)
+DARK_GREEN = (0, 100, 0)
